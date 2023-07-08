@@ -1,0 +1,435 @@
+/* navbar */
+.banner{
+  width: 100%;
+  padding-bottom: 13px;
+  height: 65px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn-danger-git{
+  margin-right: 50px;
+  background-color: #ef3d3d;
+}
+.navbar .list-content a
+{
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+.navbar-logo{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  margin-left: 3%;
+  margin-top: 0.5%;
+}
+
+
+
+.navbar .list-content a::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ef3d3d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar .list-content a:hover::after{
+  width: 100%;
+  
+}
+.text-about-nav{
+  background-color: #ef3d3d;
+  padding: 6px 20px;
+  border-radius: 8px;
+  color: white;
+  
+}
+.nav-list-a{
+  text-decoration: none;
+  color: black;
+}
+.nav-list-a:hover{
+  text-decoration: none;
+  color: black;
+}
+.list-content{
+  padding-top: 0;
+}
+.banner{
+  width: 100%;
+  padding-bottom: 13px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.btn-danger-git{
+  margin-right: 50px;
+  background-color: #ef3d3d;
+}
+.navbar .list-content a
+{
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+.navbar-logo{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  margin-left: 3%;
+  margin-top: 0.5%;
+}
+
+.nav-list-a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .list-content a::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ef3d3d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar .list-content a:hover::after{
+  width: 100%;
+
+}
+.text-about-nav{
+  background-color: #ef3d3d;
+  padding: 6px 20px;
+  border-radius: 8px;
+  color: white;
+}
+/* about */
+.about{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(3, 3, 73);
+}
+
+
+.align{
+  text-align: center;
+  margin: auto;
+
+}
+
+.heading{
+  color: #ef3d3d;
+  padding-top: 55px;
+  font-size: xx-large;
+}
+
+.para{
+  color: white;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+
+  /*about div*/
+.about{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(3, 3, 73);
+}
+
+
+.align{
+    text-align: center;
+    margin: auto;
+
+}
+
+.heading{
+    color: #EF2632;
+    padding-top: 55px;
+    font-size: xx-large;
+}
+
+.para{
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+ /*about div end*/
+
+ /* <!-- get in touch --> */
+ #getintouch{
+    width: 100%;
+    background-color: white;
+}
+.getintouch{
+  background-color: #f8f9fa;
+}
+.container3{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.main3{
+    width:65%;
+    height: 70%;
+    background-image: linear-gradient(rgba(35, 28, 58, 0.75),rgba(19, 10, 53, 0.75)),url(./Images/support.jpg);
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 260px;
+}
+
+.main3 p{
+    padding-top: 8%;
+    color: white;
+    font-weight: bold;
+    width: 430px;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 20px;
+    
+}
+
+.btn3{
+
+    margin: 10px auto;
+    background-color: #ff3d3d;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    
+}
+.btn-git-git{
+  border: none;
+  border-radius: 14px;
+  padding: 10px 20px;
+  background-color: ef;
+}
+.lets-talk-h{
+  color: rgb(3, 3, 73);
+}
+
+/* get in touch end */
+
+/* contactpage */
+/* get in touch */
+.getintouch{
+    width: 100%;
+    height: 750px;
+    background-color:rgb(230, 230, 230);
+}
+.getin-touch{
+    text-align: center;
+}
+.lets-talk{
+    color: white;
+}
+.main-section2{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 10px auto;
+}
+.email-section{
+    width: 65%;
+    height: 90%;
+    background-color:white;
+    border-radius: 14px;
+    padding: 40px;
+}
+.contact-usgit{
+    width: 30%;
+    height: 90%;
+    background-color: #f8f9fa;
+    border-radius: 14px;
+}
+.input-text{
+  width: 100%;
+  margin-bottom: 26px;
+  padding: 12px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+.input-message{
+  width: 100%;
+  margin-bottom:  25px;
+  padding: 12px 12px 80px 12px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+.btn-git{
+  border: none;
+  background-color: #EF2632;
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+.getintouchh4{
+  color: #EF2632;
+}
+.getin-touch{
+  padding-top: 40px;
+}
+.contact-usgit{
+  padding: 20px;
+}
+
+.call-anytime ,.dend-email ,.Visit-us{
+  display: flex;
+}
+.image-contact-git{
+  margin: auto 10px;
+}
+.number-contact-git{
+  margin-left: 10px;
+}
+.call-any-git{
+  margin: 10px 0 0 0;
+  color: #EF2632;
+  font-weight: 700;
+}
+.number-in-contact{
+  margin-top: 5px;
+}
+.follow-us-git{
+  color: rgb(27, 27, 85);
+  text-align: center;
+  justify-content: end;
+  margin-top: 49px;
+}
+.icons-git{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+}
+.btn-git-git{
+  background-color: #ff3d3d;
+  color: white;
+}
+
+/* contact page end */
+
+/* footer start*/
+
+.footer{
+    width: 100%;
+    background-color: rgb(3, 3, 73);
+    height: 50vh;
+}
+
+.main-footer{
+    margin-left: 200px;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    align-items: center;
+}
+.main1-footer{
+    padding-top: 70px;
+    width: 100%;
+    height: 380px;
+}
+
+.main1-footer h3{
+    color: white;
+}
+
+.main1-footer p{
+    width:200px;
+    color: white;
+}
+.main2-footer{
+    padding-top: 70px;
+    width: 100%;
+    height: 380px;
+}
+
+.main2-footer ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.main2-footer ul li{
+    color: white;
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.head-footer{
+    color: white;
+}
+
+.main3-footer{
+    padding-top: 70px;
+    width: 100%;
+    height: 375px;
+}
+
+.main3-footer p{
+    color: white;
+    width: 200px;
+}
+
+.social-media{
+    display: flex;
+    gap: 15px;
+}
+
+.rowhr{
+    display: flex;
+  }
+  .section-hr{
+    border-top: 9px solid #ef2632;
+    border-radius: 15px;
+    width: 30%;
+  }
+  .sectionhr2{
+    margin-left: 10px;
+    border-top: 9px solid #ef2632;
+    border-radius: 15px;
+    width: 10%;
+  }
+
+  .text-area{
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .btn3{
+    margin: 0px 0px 0px 0px;
+  }
+
+  /* footer end */
